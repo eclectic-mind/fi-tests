@@ -211,9 +211,10 @@ main {
     display: block;
     margin: 17px;
     border-radius: 50%;
-    background-image: url("/images/user.png");
+    background-image: url("images/user.png");
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
 
     @media screen and (max-width: 750px) {
       margin: 17px auto 0 auto;
@@ -321,6 +322,7 @@ form {
 
   @media screen and (max-width: 750px) {
     align-items: center;
+    margin-top: 20px;
   }
 }
 
